@@ -1,0 +1,12 @@
+enabled: true
+changed_paths:
+  maximum: 2000
+  outcome: error
+pull_requests: true
+statuses:
+  differences: true
+  no_differences: true
+  error: true
+request_review: author
+labels:
+  - automerge-error
